@@ -1,0 +1,248 @@
+
+
+body{
+    background-image: url(../img/1236589.jpg);
+    background-size: cover;
+    padding: 8rem 18rem 8rem 18rem;
+    margin: auto;
+    /* background-color: rgb(233, 236, 241); */
+    
+}
+.topPage{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 20px 20px 50px rgb(177, 177, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Connect{
+    font-weight: bold;
+    color: rgb(255, 145, 0);
+    padding-right: 1.5rem;
+}
+
+.Connect-a{
+    font-weight: bold;
+    color: rgb(73, 80, 139);
+    text-decoration: none;
+}
+
+.topPage h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.hederOne{
+    background-image: url(../img/ezgif-2-207a17c408.png);
+    background-size: cover;
+    box-shadow: 20px 20px 50px rgb(177, 177, 255);
+    padding:0rem 0rem 0rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* border-radius: 20px 20px 0px 0px; */
+
+}
+
+
+.hederInfo{
+    padding:0rem 5rem 0rem 0rem;
+}
+
+.info{
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.1rem;
+}
+
+
+.buton{
+    padding-top: 4.5rem;
+    display: inline-block;
+    transition: all .18s;
+}
+
+.cvDownload , .hireMe{
+    background-color: white;
+    color: rgb(135, 136, 182);
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.cvDownload a{
+    text-decoration: none;
+    color: rgb(78, 78, 128);
+}
+.hireMe a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.hireMe{
+    margin-left: 1.5rem;
+    background-color: rgb(47, 160, 132);
+}
+
+.bodyInfo{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 50px rgb(166, 166, 185);
+    padding: 0.1rem 3rem 3rem 3rem;
+}
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMeInfo p{
+    font-size: 17px;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    
+}
+
+.myInfo{
+    padding: 1rem 1rem 0rem 0rem;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(124, 117, 156);
+
+}
+
+.myInfoMe{
+    color: rgb(87, 80, 119);
+    padding-right: 4rem;
+}
+
+.myInfo table tr td{
+    padding-top: 1rem;
+}
+
+.mySkills{
+    border-top: 1px solid blue ;
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem;
+    font-weight: bold;
+}
+
+.Html:hover{
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    transition: all .30s;
+}
+
+.Css:hover{
+    background-color: rgb(0, 110, 255);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    transition: all .30s;
+}
+
+.Bootstrap:hover{
+    background-color: rgb(93, 0, 180);
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+    transition: all .30s;
+}
+
+.Js:hover{
+    background-color: rgb(238, 255, 0);
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    transition: all .30s;
+}
+
+.Jquery:hover{
+    background-color: rgb(0, 195, 255);
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    transition: all .30s;
+}
+
+.Php:hover{
+    background-color: rgb(4, 0, 255);
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    transition: all .30s;
+}
+
+.myWorks{
+    border-top: 1px solid blue ;
+    padding: 1rem 0rem 4rem 0rem;
+}
+
+
+
+.work-1{
+    background-color: rgb(247, 248, 252);
+    border-radius: 15px;
+    border-left: 2.5px solid rgb(104, 104, 207);;
+    box-shadow: 10px 10px 10px rgb(214, 214, 255);
+    padding: 0px 0px 1px 15px;
+}
+
+.work-1 h3{
+    font-weight: bold;
+    color: rgb(104, 104, 207);
+}
+
+
+.myEdu{
+    border-top: 1px solid blue;
+}
+.edu-1{
+    background-color: rgb(247, 250, 252);
+    border-radius: 15px;
+    border-left: 2.5px solid rgb(62, 185, 89);
+    box-shadow: 10px 10px 10px rgb(214, 214, 255);
+    padding: 0px 0px 1px 15px;
+}
+
+.edu-1 h3{
+    font-weight: bold;
+    color: rgb(62, 185, 89);
+}
+
+
+
+@media screen and (max-width: 1500px) {
+    .hederOne{
+        font-size: 12px;
+        padding-left: 0.3rem;
+    }
+.info-1{
+    padding-left: 10rem;
+    width: 600px;
+    height: 100px;
+
+}
+    .info{
+        padding-left: 20rem;
+    }
+
+    .buton{
+        padding-left: 20rem;
+    }
+}
